@@ -7,7 +7,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1760px;
+  /* max-width: 1760px; */
   height: 37px;
   margin-top: 64px;
   margin-left: 80px;
@@ -58,4 +58,28 @@
   color: #fff;
   margin-left: 10px;
   transform: translate()
+}
+.hero__anchor {
+  
+}
+.hero__anchor-bloc {
+  position: fixed;
+  transform: translate(-45px, 70px);
+}
+.hero__anchor-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.hero__anchor-item {
+  
+}
+.hero__anchor-link {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: right;
 }
